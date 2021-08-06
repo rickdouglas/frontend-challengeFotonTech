@@ -5,6 +5,7 @@ import 'firebase/database';
 const firebaseConfig = {
   apiKey: "AIzaSyC8u_a1PDEh-82q2jSMBhFE9eEIbWcvEqo",
   authDomain: "frontend-challenge-2b58a.firebaseapp.com",
+  databaseURL: "https://frontend-challenge-2b58a-default-rtdb.firebaseio.com",
   projectId: "frontend-challenge-2b58a",
   storageBucket: "frontend-challenge-2b58a.appspot.com",
   messagingSenderId: "395810138520",
