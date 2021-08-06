@@ -13,7 +13,7 @@ export function CardList(){
         return(
           <Card
           key={book.id}
-          avatar={`${_.get(book, '.volumeInfo.imageLinks.thumbnail') || null}`}
+          avatar={book.volumeInfo.imageLinks?.thumbnail}
           title={book.volumeInfo.title}
           description={book.volumeInfo.description} />
 
